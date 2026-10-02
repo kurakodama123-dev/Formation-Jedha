@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusOrb · Gentle productivity rituals</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  </head>
+  <body>
+    <header class="flex justify-between align-center py-4 px-8">
+      <p class="text-xl"><strong>FocusOrb</strong></p>
+      <nav class="flex gap-8" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#waitlist">Sign in</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="text-4xl font-bold text-indigo-600">Replace pings with focus sessions your team actually follows</h1>
+        <p class="text-slate-600 leading-relax mt-4">FocusOrb gives small tech teams a shared rhythm: timed focus blocks, a daily log, and an automated weekly report that replaces the mid-sprint status meeting.</p>
+        <p>Built for teams of two to twelve. No enterprise contracts, no setup calls.</p>
+        <a class="cta" href="#waitlist">Join the beta waitlist</a>
+      </section>
+
+        <section id="features" aria-labelledby="features-title">
+            <h2 id="features-title">What FocusOrb does</h2>
+            <div class="cards">
+                <article class="feature-card">
+                    <h3>Focus timer</h3>
+                    <p>Start a timed block and share your intention with the team. Everyone sees who is in a focus session without sending a message.</p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Daily log</h3>
+                    <p>A short end-of-day form captures what shipped and what is blocked. Takes under two minutes.</p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Weekly report</h3>
+                    <p>FocusOrb compiles the logs into a readable summary sent automatically every Friday. Stakeholders stay informed without a meeting.</p>
+                </article>
+            </div>
+        </section>
+      
+      <section id="testimonials" aria-labelledby="voices-title">
+        <h2 id="voices-title">What early users say</h2>
+        <div class="cites">
+            <blockquote class="testimonial">
+                <p>Our weekly standups shrank from 45 minutes to 10 once everyone had a shared focus log.</p>
+                <cite>Zara, climate marketplace founder</cite>
+            </blockquote>
+
+            <blockquote class="testimonial">
+                <p>Investors stopped asking for status decks mid-sprint. The weekly report handled it.</p>
+                <cite>Noah, AI ops lead</cite>
+            </blockquote>
+
+            <blockquote class="testimonial">
+                <p>Three months in, meeting debt is down 40%. That is the only metric the board cares about.</p>
+                <cite>Mei, Head of Ops</cite>
+            </blockquote>
+        </div>
+      </section>
+
+      <section id="pricing" aria-labelledby="pricing-title">
+        <h2 id="pricing-title">Simple pricing</h2>
+
+        <dl>
+            <div class="tab">
+                <dt>Explorer</dt>
+                <dd>Free forever. Up to 3 team members. Core focus timer and daily log.</dd>
+            </div> 
+            <div class="tab">  
+                <dt>Collective</dt>
+                <dd>$12 per seat per month. Unlimited members. Shared dashboard and automated weekly reports.</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="waitlist" aria-labelledby="waitlist-title">
+        <h2 id="waitlist-title">Join the beta waitlist</h2>
+
+        <form>
+          <fieldset>
+            <legend>Your details</legend>
+
+            <label for="fullname">Full name</label>
+            <input id="fullname" name="fullname" type="text" autocomplete="name" required />
+
+            <label for="email">Work email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+
+            <label for="role">Your role</label>
+            <select id="role" name="role" required>
+              <option value="">Select a role</option>
+              <option value="founder">Founder</option>
+              <option value="operator">Operator</option>
+              <option value="engineer">Engineer</option>
+              <option value="designer">Designer</option>
+            </select>
+
+            <label for="message">Tell us about your team (optional)</label>
+            <textarea id="message" name="message" rows="3"></textarea>
+
+            <p id="beta-info">
+              Beta participants commit to weekly check-ins and honest feedback during the three-month pilot.
+            </p>
+            <label class="consent">
+              <input type="checkbox" name="beta_ack" aria-describedby="beta-info" required />
+              I understand the beta obligations.
+            </label>
+          </fieldset>
+
+          <button type="submit">Reserve beta seat</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <nav aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <p><small>&copy; 2026 FocusOrb</small></p>
+    </footer>
+  </body>
+</html>

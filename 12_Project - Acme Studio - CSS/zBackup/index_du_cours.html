@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusOrb · Gentle productivity rituals</title>
+  </head>
+  <body>
+    <header>
+      <p><strong>FocusOrb</strong></p>
+      <nav aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#waitlist">Sign in</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" aria-labelledby="hero-title">
+        <h1 id="hero-title">Replace pings with focus sessions your team actually follows</h1>
+        <p>FocusOrb gives small tech teams a shared rhythm: timed focus blocks, a daily log, and an automated weekly report that replaces the mid-sprint status meeting.</p>
+        <p>Built for teams of two to twelve. No enterprise contracts, no setup calls.</p>
+        <a href="#waitlist">Join the beta waitlist</a>
+      </section>
+
+      <section id="features" aria-labelledby="features-title">
+        <h2 id="features-title">What FocusOrb does</h2>
+
+        <article>
+          <h3>Focus timer</h3>
+          <p>Start a timed block and share your intention with the team. Everyone sees who is in a focus session without sending a message.</p>
+        </article>
+
+        <article>
+          <h3>Daily log</h3>
+          <p>A short end-of-day form captures what shipped and what is blocked. Takes under two minutes.</p>
+        </article>
+
+        <article>
+          <h3>Weekly report</h3>
+          <p>FocusOrb compiles the logs into a readable summary sent automatically every Friday. Stakeholders stay informed without a meeting.</p>
+        </article>
+      </section>
+
+      <section aria-labelledby="voices-title">
+        <h2 id="voices-title">What early users say</h2>
+
+        <blockquote>
+          <p>Our weekly standups shrank from 45 minutes to 10 once everyone had a shared focus log.</p>
+          <cite>Zara, climate marketplace founder</cite>
+        </blockquote>
+
+        <blockquote>
+          <p>Investors stopped asking for status decks mid-sprint. The weekly report handled it.</p>
+          <cite>Noah, AI ops lead</cite>
+        </blockquote>
+
+        <blockquote>
+          <p>Three months in, meeting debt is down 40%. That is the only metric the board cares about.</p>
+          <cite>Mei, Head of Ops</cite>
+        </blockquote>
+      </section>
+
+      <section id="pricing" aria-labelledby="pricing-title">
+        <h2 id="pricing-title">Simple pricing</h2>
+
+        <dl>
+          <dt>Explorer</dt>
+          <dd>Free forever. Up to 3 team members. Core focus timer and daily log.</dd>
+
+          <dt>Collective</dt>
+          <dd>$12 per seat per month. Unlimited members. Shared dashboard and automated weekly reports.</dd>
+        </dl>
+      </section>
+
+      <section id="waitlist" aria-labelledby="waitlist-title">
+        <h2 id="waitlist-title">Join the beta waitlist</h2>
+
+        <form>
+          <fieldset>
+            <legend>Your details</legend>
+
+            <label for="fullname">Full name</label>
+            <input id="fullname" name="fullname" type="text" autocomplete="name" required />
+
+            <label for="email">Work email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required />
+
+            <label for="role">Your role</label>
+            <select id="role" name="role" required>
+              <option value="">Select a role</option>
+              <option value="founder">Founder</option>
+              <option value="operator">Operator</option>
+              <option value="engineer">Engineer</option>
+              <option value="designer">Designer</option>
+            </select>
+
+            <label for="message">Tell us about your team (optional)</label>
+            <textarea id="message" name="message" rows="3"></textarea>
+
+            <p id="beta-info">
+              Beta participants commit to weekly check-ins and honest feedback during the three-month pilot.
+            </p>
+            <label>
+              <input type="checkbox" name="beta_ack" aria-describedby="beta-info" required />
+              I understand the beta obligations.
+            </label>
+          </fieldset>
+
+          <button type="submit">Reserve beta seat</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <nav aria-label="Footer">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+      </nav>
+      <p><small>&copy; 2026 FocusOrb</small></p>
+    </footer>
+  </body>
+</html>
